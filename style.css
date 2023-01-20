@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: #222;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 400;
+  color: var(--primary-color);
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+/* hero-section-start */
+
+.hero-cont {
+  background-image: url(images/main-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.hero-cont {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.hero-cont h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.hero-cont h1 small {
+  font-size: 50px;
+}
+
+/* hero-section-end */
+
+/* second-section-start */
+
+.second-cont {
+  text-align: center;
+  padding: 20px 0;
+  background-color: var(--secondary-color);
+}
+
+.second-cont h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.second-cont h2 span {
+  font-size: 70px;
+}
+
+/* second-section-end */
+
+/* third-section-start */
+
+.third-cont {
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  box-shadow: 3px 4px 6px #ccc;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+}
+
+.card-content {
+  padding: 25px 10px;
+  background-color: var(--secondary-color);
+}
+
+.card-content h5 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.card-content p {
+  padding-top: 15px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* third-section-end */
+
+/* four-section-start */
+
+.four-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.four-cont h5 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.four-cont p {
+  padding-top: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.left,
+.right {
+  height: 400px;
+  padding: 50px;
+}
+
+.left {
+  background-color: #515603;
+}
+
+.right {
+  background-color: #722300;
+}
+
+/* four-section-end */
+
+/* FOOTER-START */
+
+.footer-cont {
+  padding: 20px;
+  background-color: var(--secondary-color);
+}
+.footer-cont h3 {
+  text-align: center;
+  font-size: 40px;
+}
+
+/* footer-end */

@@ -1,0 +1,84 @@
+@media screen and (max-width: 479px) {
+  .container {
+    width: auto;
+  }
+
+  /* hero-section-start */
+
+  .hero-cont {
+    height: 39vh;
+  }
+
+  .hero-cont h1 {
+    font-size: 30px;
+  }
+
+  .hero-cont h1 small {
+    font-size: 18px;
+  }
+
+  /* hero-section-end */
+
+  /* second-section-start */
+
+  .second-cont h2 {
+    font-size: 18px;
+  }
+  .second-cont h2 span {
+    font-size: 30px;
+  }
+
+  /* second-section-end */
+
+  /* third-cont-start */
+
+  .third-cont {
+    display: block;
+    padding: 30px 10px;
+  }
+
+  .card {
+    margin-top: 20px;
+  }
+
+  .card-content h5 {
+    font-size: 25px;
+  }
+
+  .card-content p {
+    font-size: 16px;
+  }
+
+  /* third-section-end */
+
+  /* four-section-start */
+
+  .four-cont {
+    display: block;
+  }
+
+  .left,
+  .right {
+    padding: 15px;
+    height: 260px;
+  }
+
+  .four-cont h5 {
+    font-size: 25px;
+  }
+
+  .four-cont p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  /* fout-section-end */
+
+  /* footer-start */
+
+  .footer-cont h3 {
+    font-size: 15px;
+  }
+
+  /* footer-end */
+}
